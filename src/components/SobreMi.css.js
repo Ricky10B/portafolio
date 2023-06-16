@@ -15,6 +15,7 @@ export const section = style({
 })
 
 export const miDescripcion = style({
-  fontSize: '17px',
-  color: 'white'
+  fontSize: '18px',
+  color: 'white',
+  letterSpacing: '0.4px'
 })

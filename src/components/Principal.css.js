@@ -23,7 +23,7 @@ export const principalContent = style({
   backgroundImage: "linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url('/assets/bg_page.webp')",
   backgroundSize: 'cover',
   padding: '0 1em',
-  height: '100vh',
+  height: '85vh',
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
@@ -66,15 +66,15 @@ export const listIcons = style({
 })
 
 export const itemCV = style({
-  animation: `${fadeInIcon} .4s`
+  animation: `${fadeInIcon} .3s`
 })
 
 export const itemGithub = style({
-  animation: `${fadeInIcon} .8s`
+  animation: `${fadeInIcon} .6s`
 })
 
 export const itemLinkedin = style({
-  animation: `${fadeInIcon} 1.2s`
+  animation: `${fadeInIcon} .9s`
 })
 
 export const icon = style({
@@ -88,7 +88,7 @@ export const icon = style({
   fontWeight: '600',
   letterSpacing: '0.3px',
   whiteSpace: 'nowrap',
-  backgroundImage: 'linear-gradient(to right, #5be2e7 0%, #5be2e7 0%, #00faff 25%, #5be2e7 0%, #5be2e7 0%)',
+  backgroundImage: 'linear-gradient(to right, #77e5e9 0%, #77e5e9 0%, #00faff 25%, #77e5e9 0%, #77e5e9 0%)',
   backgroundSize: '700%',
   animation: `${fondoAnim} 3s infinite`,
   ':hover': {

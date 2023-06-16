@@ -1,3 +1,69 @@
+import {
+  IconoHTML,
+  IconoCSS,
+  IconoJS,
+  IconoBootstrap,
+  IconoTailwind,
+  IconoReact,
+  IconoGit,
+  IconoRedux,
+  IconoMongoDB,
+  IconoNodeJS,
+  IconoExpress,
+  IconoPlaywright
+} from './Iconos'
+
+export const icons = [
+  {
+    Icon: IconoHTML,
+    text: 'HTML'
+  },
+  {
+    Icon: IconoCSS,
+    text: 'CSS'
+  },
+  {
+    Icon: IconoJS,
+    text: 'JavaScript'
+  },
+  {
+    Icon: IconoBootstrap,
+    text: 'Bootstrap'
+  },
+  {
+    Icon: IconoTailwind,
+    text: 'TailwindCss'
+  },
+  {
+    Icon: IconoReact,
+    text: 'React'
+  },
+  {
+    Icon: IconoGit,
+    text: 'Git'
+  },
+  {
+    Icon: IconoRedux,
+    text: 'redux'
+  },
+  {
+    Icon: IconoMongoDB,
+    text: 'MongoDB'
+  },
+  {
+    Icon: IconoNodeJS,
+    text: 'NodeJs'
+  },
+  {
+    Icon: IconoExpress,
+    text: 'Express'
+  },
+  {
+    Icon: IconoPlaywright,
+    text: 'Playwright'
+  }
+]
+
 export const dataProyects = [
   {
     imageProyect: '/assets/proyecto-infojobs.webp',
