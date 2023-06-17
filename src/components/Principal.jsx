@@ -22,10 +22,9 @@ export const Principal = () => {
       <ul className={listIcons}>
         <li className={itemCV}>
           <a
-            href='https://github.com/Ricky10B'
+            href='/assets/CV RICKY BELTRAN.pdf'
             target='_blank'
             rel='noreferrer noopener'
-            download
             className={icon}
           >
             <FileText /><span>Descargar CV</span>
