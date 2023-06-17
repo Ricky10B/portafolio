@@ -7,7 +7,7 @@ export const SobreMi = () => {
       <h2 className={titleSection}>Sobre Mi</h2>
 
       <p className={miDescripcion}>
-        Soy un desarrollador web autodidacta que le regocija crear software, los retos y aprender, mi enfoque principal es el frontend pero también tengo conocimientos de backend, siempre estoy aprendiendo para ser el mejor desarrollador posible
+        Soy un desarrollador web autodidacta que le regocija crear software, los retos, aprender y profundizar en los temas, mi enfoque principal es el frontend pero también tengo conocimientos de backend, siempre estoy aprendiendo para ser el mejor desarrollador posible
       </p>
     </section>
   )
