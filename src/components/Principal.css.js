@@ -25,9 +25,9 @@ export const principalContent = style({
   padding: '0 1em',
   height: '85vh',
   display: 'flex',
-  flexDirection: 'column',
-  justifyContent: 'center',
-  gap: '8px',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+  gap: '20px',
   '@media': {
     'screen and (min-width: 640px)': {
       height: '75vh',
@@ -109,4 +109,24 @@ export const textOfButton = style({
       display: 'none'
     }
   }
+})
+
+export const containerImageCodigo = style({
+  display: 'none',
+  '@media': {
+    'screen and (min-width: 640px)': {
+      display: 'block'
+    }
+  }
+})
+
+export const imageCodigo = style({
+  width: '100%',
+  height: '100%',
+  maxWidth: '500px',
+  minHeight: '35vh',
+  display: 'block',
+  objectFit: 'cover',
+  filter: 'contrast(150%)',
+  clipPath: 'polygon(10% 0, 80% 0%, 100% 90%, 20% 100%)'
 })

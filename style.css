@@ -32,6 +32,10 @@ body {
   margin: 0 auto;
 }
 
+.textBalanced {
+  text-wrap: balance
+}
+
 :root::-webkit-scrollbar {
   width: .6em;
   background: white;

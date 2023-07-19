@@ -28,7 +28,8 @@ export const card = style({
   cursor: 'pointer',
   ':hover': {
     transform: 'scale(1.05)',
-    opacity: '.85'
+    opacity: '.85',
+    filter: 'contrast(1.2)'
   }
 })
 
