@@ -84,7 +84,7 @@ export const dataProyects = [
     title: 'Aplicación de chat',
     description: 'Este proyecto es una aplicación de mensajería instantánea que guarda los datos de los usuarios por 7 días, tiene otras funcionalidades como poder compartir la ubicación, ampliar la imágen de los usuarios y poder hacer videollamadas',
     enlaceGithub: 'https://github.com/Ricky10B/aplicacion-chat',
-    enlaceApp: 'https://aplicacion-chat.up.railway.app/'
+    enlaceApp: 'https://app-chat-azqn.onrender.com/'
   },
   {
     imageProyect: '/assets/proyecto-tic-tac-toe.webp',
