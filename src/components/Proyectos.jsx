@@ -29,7 +29,11 @@ export const Proyectos = () => {
             onClick={() => goToProyect(dataProyect.enlaceApp)}
           >
             <header>
-              <img src={dataProyect.imageProyect} alt='Proyecto aplicacion de chat' className={imageCard} />
+              <img
+                src={dataProyect.imageProyect}
+                alt='Proyecto aplicacion de chat'
+                className={imageCard}
+              />
             </header>
             <div className={bodyCard}>
               <div>

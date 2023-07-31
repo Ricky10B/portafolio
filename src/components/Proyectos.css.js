@@ -39,10 +39,7 @@ export const imageCard = style({
   display: 'block',
   aspectRatio: '16/9',
   borderTopRightRadius: '8px',
-  borderTopLeftRadius: '8px',
-  ':hover': {
-    transform: 'scale(1.15)'
-  }
+  borderTopLeftRadius: '8px'
 })
 
 export const bodyCard = style({
