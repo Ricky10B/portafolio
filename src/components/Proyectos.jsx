@@ -6,6 +6,7 @@ import {
   buttonsCard,
   bodyCard,
   titleProyect,
+  descriptionProyect,
   contentButtons
 } from './Proyectos.css'
 import { titleSection } from '../../App.css'
@@ -33,7 +34,7 @@ export const Proyectos = () => {
             <div className={bodyCard}>
               <div>
                 <h4 className={titleProyect}>{dataProyect.title}</h4>
-                <p>{dataProyect.description}</p>
+                <p className={descriptionProyect}>{dataProyect.description}</p>
               </div>
               <div className={contentButtons}>
                 <a

@@ -39,7 +39,10 @@ export const imageCard = style({
   display: 'block',
   aspectRatio: '16/9',
   borderTopRightRadius: '8px',
-  borderTopLeftRadius: '8px'
+  borderTopLeftRadius: '8px',
+  ':hover': {
+    transform: 'scale(1.15)'
+  }
 })
 
 export const bodyCard = style({
@@ -52,11 +55,12 @@ export const bodyCard = style({
 
 export const titleProyect = style({
   margin: '.5em 0',
-  fontSize: '22px'
+  fontSize: '22px',
+  color: '#fff'
 })
 
 export const descriptionProyect = style({
-  margin: '.2em 0'
+  color: '#bfbfbf'
 })
 
 export const contentButtons = style({

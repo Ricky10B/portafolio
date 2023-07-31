@@ -100,3 +100,8 @@ export const miName = style({
   fontWeight: '700',
   fontSize: '18px'
 })
+
+export const headerImageProyect = style({
+  height: '100%',
+  overflow: 'hidden'
+})
