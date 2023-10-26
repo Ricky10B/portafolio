@@ -12,14 +12,21 @@ import {
   containerImageCodigo,
   imageCodigo
 } from './Principal.css'
+import { useTranslation } from 'react-i18next'
 
 export const Principal = () => {
+  const { t } = useTranslation()
+
   return (
     <section className={principalContent} id='principal'>
       <div>
         <div>
-          <h1 className={titlePrincipalContent}>Hola, soy Ricky Beltrán</h1>
-          <p className={paragraphPrincipalContent}>Desarrollador web</p>
+          <h1 className={titlePrincipalContent}>
+            {t('principal.title')}
+          </h1>
+          <p className={paragraphPrincipalContent}>
+            {t('principal.subtitle')}
+          </p>
         </div>
 
         <ul className={listIcons}>
@@ -30,7 +37,7 @@ export const Principal = () => {
               rel='noreferrer noopener'
               className={icon}
             >
-              <FileText /><span>Descargar CV</span>
+              <FileText /><span>{t('principal.links.textCV')}</span>
             </a>
           </li>
           <li className={itemGithub}>

@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css'
 
-export const listProyects = style({
+export const listProjects = style({
   listStyle: 'none',
   margin: '0',
   padding: '0 1em',
@@ -83,7 +83,7 @@ export const buttonsCard = style({
   borderRadius: '5px',
   textDecoration: 'none',
   color: '#fff',
-  fontWeight: '500',
+  fontWeight: '600',
   ':hover': {
     background: '#fff',
     color: '#0a0a26'

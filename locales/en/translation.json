@@ -1,0 +1,56 @@
+{
+  "translation": {
+    "header": {
+      "links": {
+        "home": "Home",
+        "aboutMe": "About me",
+        "proyects": "Projects",
+        "tecnologies": "Technologies"
+      }
+    },
+    "principal": {
+      "title": "Hi, i\"m Ricky Beltrán",
+      "subtitle": "Web developer",
+      "links": {
+        "textCV": "Download CV"
+      }
+    },
+    "aboutMe": {
+      "title": "About Me",
+      "description": "I am a self-taught web developer who enjoys creating software, challenges, learning and going deep into the topics, my main focus is frontend but I also have backend knowledge, I am always learning to be the best developer possible"
+    },
+    "projects": {
+      "title": "Projects",
+      "itemsCards": {
+        "images": {
+          "description1": "Tic Tac Toe application project",
+          "description2": "Chat application project",
+          "description3": "Google Translator application project",
+          "description4": "infojobs Hackathon application project"
+        },
+        "titles": {
+          "title1": "Google tic-tac-toe clone",
+          "title2": "Chat application",
+          "title3": "Google Translator clone",
+          "title4": "Infojobs Hackathon"
+        },
+        "descriptions": {
+          "description1": "This project is a google tic-tac-toe clone without the functionality of being able to play against the machine",
+          "description2": "This project is an instant messaging application that saves user data for 7 days, has other functionalities such as location sharing, enlargement of the user\"s image and the ability to make video calls",
+          "description3": "This project is a clone of the google translator, it uses the cohere service to translate the text entered by the user, you can copy the text to the clipboard, listen to the translation, select multiple languages and enter the text by audio.",
+          "description4": "This project is from my participation in the infojobs and midudev hackathon in which you can provide a Github user to calculate the most used language in all repositories and show job offers with that language."
+        },
+        "buttons": {
+          "showCode": "See the code",
+          "showPage": "See the page"
+        }
+      }
+    },
+    "technologies": {
+      "title": "Technologies"
+    },
+    "footer": {
+      "developed": "Developed by <1 className=''>Ricky Beltrán</1>"
+    }
+  }
+}

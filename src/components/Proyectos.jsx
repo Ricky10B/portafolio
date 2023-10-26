@@ -2,7 +2,7 @@ import { Github, Globe } from 'lucide-react'
 import {
   card,
   imageCard,
-  listProyects,
+  listProjects,
   buttonsCard,
   bodyCard,
   titleProyect,
@@ -10,57 +10,66 @@ import {
   contentButtons
 } from './Proyectos.css'
 import { titleSection } from '../../App.css'
-import { dataProyects } from '../consts'
+import { dataProjects } from '../consts'
+import { useTranslation } from 'react-i18next'
 
 export const Proyectos = () => {
-  const goToProyect = (urlProyect) => {
-    window.open(urlProyect)
+  const { t } = useTranslation()
+
+  const goToProyect = (urlProject) => {
+    window.open(urlProject, '_blank', 'noreferrer noopener')
   }
 
   return (
     <section id='proyectos'>
-      <h2 className={titleSection}>Proyectos</h2>
+      <h2 className={titleSection}>
+        {t('projects.title')}
+      </h2>
 
-      <ul className={listProyects}>
-        {dataProyects.map(dataProyect => (
+      <ul className={listProjects}>
+        {dataProjects.map(dataProject => (
           <li
-            key={dataProyect.imageProyect}
+            key={dataProject.imageProject}
             className={card}
-            onClick={() => goToProyect(dataProyect.enlaceApp)}
+            onClick={() => goToProyect(dataProject.enlaceApp)}
           >
             <header>
               <img
-                src={dataProyect.imageProyect}
-                alt='Proyecto aplicacion de chat'
+                src={dataProject.imageProject}
+                alt={t(`projects.itemsCards.images.description${dataProject.id}`)}
                 className={imageCard}
               />
             </header>
             <div className={bodyCard}>
               <div>
-                <h4 className={titleProyect}>{dataProyect.title}</h4>
-                <p className={descriptionProyect}>{dataProyect.description}</p>
+                <h4 className={titleProyect}>
+                  {t(`projects.itemsCards.titles.title${dataProject.id}`)}
+                </h4>
+                <p className={descriptionProyect}>
+                  {t(`projects.itemsCards.descriptions.description${dataProject.id}`)}
+                </p>
               </div>
               <div className={contentButtons}>
                 <a
                   className={buttonsCard}
-                  href={dataProyect.enlaceGithub}
+                  href={dataProject.enlaceGithub}
                   target='_blank'
                   rel='noreferrer noopener'
                   onClick={e => e.stopPropagation()}
                 >
                   <Github />
-                  Ver el código
+                  {t('projects.itemsCards.buttons.showCode')}
                 </a>
 
                 <a
                   className={buttonsCard}
-                  href={dataProyect.enlaceApp}
+                  href={dataProject.enlaceApp}
                   target='_blank'
                   rel='noreferrer noopener'
                   onClick={e => e.stopPropagation()}
                 >
                   <Globe />
-                  Ver la página
+                  {t('projects.itemsCards.buttons.showPage')}
                 </a>
               </div>
             </div>

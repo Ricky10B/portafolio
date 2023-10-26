@@ -1,0 +1,56 @@
+{
+  "translation": {
+    "header": {
+      "links": {
+        "home": "Inicio",
+        "aboutMe": "Sobre mi",
+        "proyects": "Proyectos",
+        "tecnologies": "Tecnologías"
+      }
+    },
+    "principal": {
+      "title": "Hola, soy Ricky Beltrán",
+      "subtitle": "Desarrollador web",
+      "links": {
+        "textCV": "Descargar CV"
+      }
+    },
+    "aboutMe": {
+      "title": "Sobre Mi",
+      "description": "Soy un desarrollador web autodidacta que le regocija crear software, los retos, aprender y profundizar en los temas, mi enfoque principal es el frontend pero también tengo conocimientos de backend, siempre estoy aprendiendo para ser el mejor desarrollador posible"
+    },
+    "projects": {
+      "title": "Proyectos",
+      "itemsCards": {
+        "images": {
+          "description1": "Proyecto aplicación Tic Tac Toe",
+          "description2": "Proyecto aplicacion de chat",
+          "description3": "Proyecto aplicación Traductor de Google",
+          "description4": "Proyecto aplicación Hackaton de infojobs"
+        },
+        "titles": {
+          "title1": "Clon tic-tac-toe de Google",
+          "title2": "Aplicación de chat",
+          "title3": "Clon traductor Google",
+          "title4": "Hackaton Infojobs"
+        },
+        "descriptions": {
+          "description1": "Este proyecto es un clon del tic-tac-toe de google sin la funcionalidad de poder jugar contra la máquina",
+          "description2": "Este proyecto es una aplicación de mensajería instantánea que guarda los datos de los usuarios por 7 días, tiene otras funcionalidades como poder compartir la ubicación, ampliar la imágen de los usuarios y poder hacer videollamadas",
+          "description3": "Este proyecto es un clon del traductor de google, usa el servicio de cohere para traducir el texto ingresado por el usuario, puede copiar el texto al portapapeles, escuchar la traducción, seleccionar multiples idiomas e ingresar el texto por audio",
+          "description4": "Este proyecto es de mi participación de la hackaton de infojobs y midudev en el que se le puede proporcionar un usuario de Github para calcular el lenguaje más usado en todos los repositorios y le muestra ofertas de trabajo con ese lenguaje"
+        },
+        "buttons": {
+          "showCode": "Ver el código",
+          "showPage": "Ver la página"
+        }
+      }
+    },
+    "technologies": {
+      "title": "Tecnologías"
+    },
+    "footer": {
+      "developed": "Desarrollado por <1 className=''>Ricky Beltrán</1>"
+    }
+  }
+}

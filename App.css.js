@@ -101,7 +101,23 @@ export const miName = style({
   fontSize: '18px'
 })
 
-export const headerImageProyect = style({
-  height: '100%',
-  overflow: 'hidden'
+export const buttonI18n = style({
+  background: 'transparent',
+  border: 0,
+  cursor: 'pointer',
+  fontSize: '1em',
+  padding: 0,
+  ':hover': {
+    opacity: 0.7
+  }
+})
+
+export const containerI18n = style({
+  display: 'flex',
+  gap: '15px',
+  marginTop: '2em'
+})
+
+export const languageSelected = style({
+  textShadow: '0 0 8px #00b8ff, 0 0 8px #00b8ff, 0 0 8px #00b8ff'
 })

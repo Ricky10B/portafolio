@@ -23,5 +23,5 @@ export const tecnology = style({
   border: '2px solid #00b8ff',
   borderRadius: '8px',
   padding: '6px 27px',
-  fontWeight: 'bold'
+  fontWeight: 700
 })

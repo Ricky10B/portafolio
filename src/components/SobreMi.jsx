@@ -1,13 +1,18 @@
+import { useTranslation } from 'react-i18next'
 import { titleSection } from '../../App.css'
 import { section, miDescripcion } from './SobreMi.css'
 
 export const SobreMi = () => {
+  const { t } = useTranslation()
+
   return (
     <section id='sobreMi' className={section}>
-      <h2 className={titleSection}>Sobre Mi</h2>
+      <h2 className={titleSection}>
+        {t('aboutMe.title')}
+      </h2>
 
       <p className={`${miDescripcion} textBalanced`}>
-        Soy un desarrollador web autodidacta que le regocija crear software, los retos, aprender y profundizar en los temas, mi enfoque principal es el frontend pero también tengo conocimientos de backend, siempre estoy aprendiendo para ser el mejor desarrollador posible
+        {t('aboutMe.description')}
       </p>
     </section>
   )
